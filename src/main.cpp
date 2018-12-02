@@ -25,6 +25,6 @@ void loop()
 
     Serial.print(millis()- begin_time);
     Serial.print("/");
-    Serial.println(temp);
+    Serial.println(temp, 5);
     delay(500);
 }
